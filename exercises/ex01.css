@@ -1,0 +1,32 @@
+UL {color: rgb(117, 47, 188)}
+
+A {color: rgb(26, 76, 243);}
+
+#title{
+    background: rgb(235, 190, 190);
+    color:rgb(255, 43, 174);
+    font-weight: normal;
+}
+
+H2 {
+    color: rgb(14, 86, 39);
+}
+
+H3 {
+    color: rgb(2, 57, 42);
+}
+
+#sabrina {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+HTML {
+    background-color: rgb(207, 255, 239);
+}
+
+P {
+    color: rgb(70, 95, 117);
+}

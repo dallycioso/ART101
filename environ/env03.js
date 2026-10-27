@@ -4,6 +4,8 @@ let dexScan = $("#dexScan");
 
 let environmentElements = ["damp", "quiet", "lush", "nature", "wooded"];
 
+let scanCount = 0
+
 let mainEntity = {
     name: "The Curtain",
     type: "soft border",
@@ -33,6 +35,10 @@ dexScan.css("width: 10%;");
 
 $(".Pkmon img").click(function () {
 let chosenMon = pokeDex[this.id]
+scanCount = scanCount + 1
 
+console.log(chosenMon.mon + " was selected!");
+console.log("The scan count is " + scanCount);
+console.log();
 dexScan.html("<h1>" + chosenMon.mon + " | Type: "+ chosenMon.type+" | "+ chosenMon.class+"</h1>"+"<p>"+chosenMon.info+"</p>");
 })

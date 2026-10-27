@@ -13,7 +13,7 @@ let mainEntity = {
 };
 
 let pokeDex = {
-    Goomy: {mon: "Goomy", type: "Dragon", class: "Soft Tissue Pokemon", info: "Goomy requires moisture to survive, it is often found in damp and shaded locations."},
+    Goomy: {mon: "Goomy", type: "Dragon", class: "Soft Tissue Pokemon", info: "Goomy requires moisture to survive, it is often found in damp and shaded locations. Be careful with its horns, they are very sensative and should be handled delicately."},
     Panpour: {mon: "Panpour", type: "Water", class: "Spray Pokemon", info: "Nutricious water is stored in its head, it is said the redwoods of this forest grew large due to the Panpour living there."},
     Butterfree: {mon: "Butterfree", type: "Bug/Flying", class: "Butterfly Pokemon", info: "It's wings are covered with poisonous powders which repel water. It is able to fly in rain with ease and spew highly toxic dust into the air."},
     Butterfree2: {mon: "Butterfree", type: "Bug/Flying", class: "Butterfly Pokemon", info: "It's wings are covered with poisonous powders which repel water. It is able to fly in rain with ease and spew highly toxic dust into the air."},

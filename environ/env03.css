@@ -1,0 +1,101 @@
+html{
+    font-size: 8px;
+}
+
+body{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url(UCSCBridgeImg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; 
+}
+
+#Goomy{
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  width: 10%;
+}
+
+#Butterfree{
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 10%;
+}
+
+#Butterfree2{
+  position: absolute;
+  top: 7%;
+  left: 70%;
+  width: 8%;
+  transform: rotate(-20deg)
+}
+
+#Butterfree3{
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  width: 8%;
+  transform: rotate(10deg)
+}
+
+#Swirlix{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 11%;
+}
+
+#Panpour{
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  width: 10%;
+  transform: rotate(-5deg)
+}
+
+#text{   
+    position: center;
+    background-color: rgb(216, 237, 255);
+    max-width: 95%;
+    font-size: clamp(0.5rem, 1vw + 2rem, 2rem);
+}
+
+#dexTitle{
+    text-align: center;
+    font-size: clamp(0.25rem, 1vw + 1rem, 2rem);
+    max-width: 20%;
+    margin: 0 auto 0 auto;
+    border-radius: 5px; 
+    background: rgb(165, 187, 165);
+    color: rgb(2, 51, 58);
+}
+
+.Pkmon img:hover {
+  background-color: #acede3;
+}
+
+#dexScan {
+  margin: 0 auto;
+  background-color: #e2f8f6;
+  width: 30%;
+  padding: 1%;
+  border-radius: 5%;
+}
+
+#dexScan h1 {
+  background-color: #a7d0cd;
+  text-align: center;
+  margin-top: 0;
+  border-radius: 5%;
+}
+
+#dexScan p {
+  background-color: #bbcecd;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}

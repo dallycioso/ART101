@@ -15,7 +15,7 @@ let mainEntity = {
 };
 
 let pokeDex = {
-    Goomy: {mon: "Goomy", type: "Dragon", class: "Soft Tissue Pokemon", info: "Goomy requires moisture to survive, it is often found in damp and shaded locations. Be careful with its horns, they are very sensative and should be handled delicately."},
+    Goomy: {mon: "Goomy", type: "Dragon", class: "Soft Tissue Pokemon", info: "Goomy requires moisture to survive, it is often found in damp and shaded locations. Be careful with its horns, they are very sensetive and should be handled delicately."},
     Panpour: {mon: "Panpour", type: "Water", class: "Spray Pokemon", info: "Nutricious water is stored in its head, it is said the redwoods of this forest grew large due to the Panpour living there."},
     Butterfree: {mon: "Butterfree", type: "Bug/Flying", class: "Butterfly Pokemon", info: "It's wings are covered with poisonous powders which repel water. It is able to fly in rain with ease and spew highly toxic dust into the air."},
     Butterfree2: {mon: "Butterfree", type: "Bug/Flying", class: "Butterfly Pokemon", info: "It's wings are covered with poisonous powders which repel water. It is able to fly in rain with ease and spew highly toxic dust into the air."},
@@ -24,21 +24,19 @@ let pokeDex = {
 }
 
 $("#Goomy").click( function(){
-
-
-console.log("Pokemon was clicked!");
-dexScan.html("<h1>Goomy #40</h1><p>hi<p>");
-dexScan.css("background-color", "rgb(216, 237, 255)");
-dexScan.css("padding", "8px 12px");
-dexScan.css("width: 10%;");
+    console.log("Pokemon was clicked!");
+    dexScan.html("<h1>Goomy #40</h1><p>hi<p>");
+    dexScan.css("background-color", "rgb(216, 237, 255)");
+    dexScan.css("padding", "8px 12px");
+    dexScan.css("width: 10%;");
 })
 
 $(".Pkmon img").click(function () {
-let chosenMon = pokeDex[this.id]
-scanCount = scanCount + 1
+    let chosenMon = pokeDex[this.id]
+    scanCount = scanCount + 1
 
-console.log(chosenMon.mon + " was selected!");
-console.log("The scan count is " + scanCount);
-console.log();
-dexScan.html("<h1>" + chosenMon.mon + " | Type: "+ chosenMon.type+" | "+ chosenMon.class+"</h1>"+"<p>"+chosenMon.info+"</p>");
+    console.log(chosenMon.mon + " was selected!");
+    console.log("The scan count is " + scanCount);
+    console.log();
+    dexScan.html("<h1>" + chosenMon.mon + " | Type: "+ chosenMon.type+" | "+ chosenMon.class+"</h1>"+"<p>"+chosenMon.info+"</p>");
 })

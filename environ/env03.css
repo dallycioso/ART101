@@ -57,6 +57,22 @@ body{
   transform: rotate(-5deg)
 }
 
+#Pansage{
+  position: absolute;
+  top: 43%;
+  left: 78%;
+  width: 0%;
+  transform: rotate(3deg)
+}
+
+#Joltik{
+  position: absolute;
+  top: 57%;
+  left: 72%;
+  width: 0%;
+  transform: rotate(10deg)
+}
+
 #text{   
     position: center;
     background-color: rgb(216, 237, 255);
@@ -98,4 +114,11 @@ body{
   font-size: 16px;
   text-align: center;
   margin-top: 0;
+}
+
+#MysterySpot{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 10%;
 }

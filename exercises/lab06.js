@@ -34,8 +34,8 @@ $(document).keydown(function (event) {
 $(document).mousemove(function (event) {
   if (following === true) {
     $("#creature").css({
-      left: event.pageX - $("#scene").offset().left + 30,
-      top: event.pageY - $("#scene").offset().top + 30
+      left: event.pageX - $("#scene").offset().left - 30,
+      top: event.pageY - $("#scene").offset().top - 25
     });
   }
 });

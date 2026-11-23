@@ -22,5 +22,10 @@ $("#needy-button").click( function(){
     //$("body").append("<img width = '50' src='" + colors[counter - 1] + ".jpg'>")
 
     if(counter <= 5) {$("#needy-button").after("<p>my mood is... normal<p>");}
-    else if(counter <= 12) {$("#needy-button").after("<p>my mood is... e<p>");}
+    else if(counter <= 12) {$("#needy-button").after("<p>my mood is... odd<p>");}
+    else if(counter <= 20) {$("#needy-button").after("<p>my mood is... sad<p>");}
+
+    if (colorCounter >= 10) {
+        colorCounter = 0
+    }
 });

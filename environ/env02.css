@@ -1,36 +1,40 @@
 body{
-    background-image: url(UCSCBridgeImg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url(UCSCBridgeImg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; 
 }
 
-.Goomy{
+#Goomy{
   position: absolute;
-  top: 375px;
-  left: 325px;
-  width: 200px;
+  top: 75%;
+  left: 40%;
+  width: 10%;
 }
 
-.Butterfree{
+#Butterfree{
   position: absolute;
-  top: 10px;
-  left: 1100px;
-  width: 200px;
+  top: 10%;
+  left: 80%;
+  width: 10%;
 }
 
-.Swirlix{
+#Swirlix{
   position: absolute;
-  top: 80px;
-  left: 0px;
-  width: 200px;
+  top: 10%;
+  left: 0%;
+  width: 11%;
 }
 
-.Panpour{
+#Panpour{
   position: absolute;
-  top: 220px;
-  left: 600px;
-  width: 250px;
+  top: 50%;
+  left: 18%;
+  width: 10%;
+  transform: rotate(-5deg)
 }
 
 #text{
